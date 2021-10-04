@@ -2,6 +2,9 @@ import React from 'react';
 import Newsletter from '../Newsletter/Newsletter';
 import expert from './experts.png'
 import './About.css'
+import missionImg from '../../images/mission-img.png'
+import visonImg from '../../images/vison-img.png'
+import Testimonials from '../Testimonials/Testimonials';
 
 const About = () => {
     return (
@@ -20,7 +23,7 @@ const About = () => {
                     <img src={expert} alt="experts" className="img-fluid" />
                 </div>
             </div>
-            <div className="experience-section text-center pt-5">
+            <div className="bg-color text-center pt-5">
                 <h1><span className="fw-bold text-danger">22 Years</span> Experience in <span className="fw-bold">Education</span> <br /> and <span className="fw-bold">Teaching</span></h1>
                 <p className="w-50 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quia aperiam reprehenderit? Minus temporibus, eligendi perferendis libero id harum. Architecto.</p>
                 <div className="d-flex justify-content-center align-iterms-center">
@@ -54,6 +57,31 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div className="row container mx-auto d-flex align-items-center w-75 mt-5">
+                <div className="col-6 d-flex justify-content-center">
+                    <img src={missionImg} alt="experts" className="img-fluid" />
+                </div>
+                <div className="col-6">
+                    <h6 className="subheading-text-color">OUR MISSON</h6>
+                    <h2 className="mb-5">We Want to Change The World with Edication</h2>
+                    <p className="content-align mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo qui incidunt consequatur provident.</p>
+                    <p>
+                        Ipsam doloremque enim quo repellat quod ut perspiciatis odio odit nobis excepturi soluta, voluptatum quae, nam, velit dolore tenetur! Quos dolore sint molestias ipsa fugiat excepturi.</p>
+                </div>
+            </div>
+            <div className="row container mx-auto d-flex align-items-center w-75 mt-5">
+                <div className="col-6">
+                    <h6 className="subheading-text-color">OUR VISION</h6>
+                    <h2 className="mb-5">Easily Educate Every People Around You</h2>
+                    <p className="content-align mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo qui incidunt consequatur provident.</p>
+                    <p>
+                        Ipsam doloremque enim quo repellat quod ut perspiciatis odio odit nobis excepturi soluta, voluptatum quae, nam, velit dolore tenetur! Quos dolore sint molestias ipsa fugiat excepturi.</p>
+                </div>
+                <div className="col-6 d-flex justify-content-center">
+                    <img src={visonImg} alt="experts" className="img-fluid" />
+                </div>
+            </div>
+            <Testimonials></Testimonials>
             <Newsletter></Newsletter>
         </div>
     );
