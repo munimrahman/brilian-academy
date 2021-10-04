@@ -36,9 +36,6 @@ const Header = () => {
                             <li className="nav-item">
                                 <NavLink to="/contact" activeStyle={activeStyle} className="nav-link">Contact Us</NavLink>
                             </li>
-                            <li className="nav-item">
-                                <NavLink to="/sdfgt" activeStyle={activeStyle} className="nav-link">Test 404 Page</NavLink>
-                            </li>
                         </ul>
                         {/* login/singup buttons */}
                         <div className="ms-3">
