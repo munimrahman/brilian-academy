@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Course from '../Course/Course';
 import HeroSection from '../HeroSection/HeroSection';
 import Newsletter from '../Newsletter/Newsletter';
+import Testimonials from '../Testimonials/Testimonials';
 import WhyUs from '../WhyUs/WhyUs';
 
 const Home = () => {
@@ -33,6 +34,7 @@ const Home = () => {
                 </div>
             </div>
             <WhyUs></WhyUs>
+            <Testimonials></Testimonials>
             <Newsletter></Newsletter>
         </div >
     );
