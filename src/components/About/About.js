@@ -26,31 +26,31 @@ const About = () => {
                 <div className="d-flex justify-content-center align-iterms-center">
                     <div className="m-5 d-flex flex-column align-items-center">
                         <div className="bg-danger icn-bg d-flex align-items-center justify-content-center mb-3">
-                            <i class="fas fa-book fs-3 text-white"></i>
+                            <i className="fas fa-book fs-3 text-white"></i>
                         </div>
                         <h2>1000+</h2>
                         <p>Online Courses</p>
                     </div>
                     <div className="m-5 d-flex flex-column align-items-center">
                         <div className="bg-danger icn-bg d-flex align-items-center justify-content-center mb-3">
-                            <i class="fas fa-users fs-3 text-white"></i>
+                            <i className="fas fa-users fs-3 text-white"></i>
                         </div>
-                        <h2>1000+</h2>
-                        <p>Online Courses</p>
+                        <h2>50000+</h2>
+                        <p>Students Enrolled</p>
                     </div>
                     <div className="m-5 d-flex flex-column align-items-center">
                         <div className="bg-danger icn-bg d-flex align-items-center justify-content-center mb-3">
-                            <i class="fas fa-user-alt fs-3 text-white"></i>
+                            <i className="fas fa-user-alt fs-3 text-white"></i>
                         </div>
-                        <h2>1000+</h2>
-                        <p>Online Courses</p>
+                        <h2>350+</h2>
+                        <p>Expert Instructors</p>
                     </div>
                     <div className="m-5 d-flex flex-column align-items-center">
                         <div className="bg-danger icn-bg d-flex align-items-center justify-content-center mb-3">
-                            <i class="fas fa-clock fs-3 text-white"></i>
+                            <i className="fas fa-clock fs-3 text-white"></i>
                         </div>
-                        <h2>1000+</h2>
-                        <p>Online Courses</p>
+                        <h2>10000+</h2>
+                        <p>Hours Content</p>
                     </div>
                 </div>
             </div>

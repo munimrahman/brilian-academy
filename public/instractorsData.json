@@ -1,22 +1,58 @@
 [
     {
         "id": 1,
-        "name": "Instractor Name",
-        "img": "https://img-c.udemycdn.com/user/200_H/7010472_fcc1_6.jpg"
+        "name": "Gregory Caremans",
+        "img": "https://img-c.udemycdn.com/user/200_H/7010472_fcc1_6.jpg",
+        "review": "13163",
+        "category": "Personal Development",
+        "address": "Paris, France"
     },
     {
         "id": 2,
-        "name": "Instractor Name",
-        "img": "https://img-c.udemycdn.com/user/200_H/7010472_fcc1_6.jpg"
+        "name": "Brian Tracy",
+        "img": "https://img-c.udemycdn.com/user/200_H/1058694_d793_3.jpg",
+        "category": "Leadership",
+        "review": "3411",
+        "address": "Charlottetown, Canada"
     },
     {
         "id": 3,
-        "name": "Instractor Name",
-        "img": "https://img-c.udemycdn.com/user/200_H/7010472_fcc1_6.jpg"
+        "name": "Kain Ramsay",
+        "img": "https://img-c.udemycdn.com/user/200_H/3890126_2b28_16.jpg",
+        "category": "Communication Skills",
+        "review": "3239",
+        "address": "Dunnock Road, Dunfermline"
     },
     {
         "id": 4,
-        "name": "Instractor Name",
-        "img": "https://img-c.udemycdn.com/user/200_H/7010472_fcc1_6.jpg"
+        "name": "Dr Karen E Wells",
+        "img": "https://img-c.udemycdn.com/user/200_H/23345822_d51b_4.jpg",
+        "category": "Parenting & Relationships",
+        "review": "954",
+        "address": "USA"
+    },
+    {
+        "id": 5,
+        "name": "Josh Paulsen",
+        "img": "https://img-c.udemycdn.com/user/200_H/9406592_9dcf.jpg",
+        "category": "Personal Productivity",
+        "review": "37779",
+        "address": "Canada"
+    },
+    {
+        "id": 6,
+        "name": "Chris Spink",
+        "img": "https://img-c.udemycdn.com/user/200_H/7947450_69e8_2.jpg",
+        "category": "Personal Development",
+        "review": "1024",
+        "address": "France"
+    },
+    {
+        "id": 7,
+        "name": "Dave Fox",
+        "img": "https://img-c.udemycdn.com/user/200_H/2858322_a424.jpg",
+        "category": "Lifestyle",
+        "review": "909",
+        "address": "London, UK"
     }
 ]

@@ -1,135 +1,38 @@
 import React from 'react';
 import './Course.css'
 
-const Course = () => {
+const Course = (props) => {
+    const { author, title, descriptions, reviews, students, price, authorImg, courseImg, category } = props.course;
     return (
-        <div className="m-5">
-            <div className="row row-cols-1 row-cols-md-4 g-4 mx-5">
-                <div className="col">
-                    <div className="card h-100 shadow">
-                        <div className="position-relative">
-                            <img src="https://img-c.udemycdn.com/course/240x135/836842_38ab_5.jpg" className="card-img-top" alt="..." />
-                            <img src="https://img-c.udemycdn.com/user/200_H/7010472_fcc1_6.jpg" alt="aimg" className="authorImg" />
-                            <span class="badge bg-danger category">New</span>
-                        </div>
-                        <div className="card-body">
-                            <div>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="far fa-star text-warning"></i>
-                                <small className="text-secondary ps-2 review-text">243 Reviews</small>
-                            </div>
-                            <h5 className="fs-6 fw-bold">Neuroplasticity: How To Rewire Your Brain</h5>
-                            <p className="autor-text">By <span className="text-danger">Authore Name</span></p>
-                            <p className="card-text card-font">How to develop mental flexibility, change habits, stop procrastination and alter memories based on neuroscience research</p>
-                            <hr />
-                            <div className="d-flex justify-content-between">
-                                <div>
-                                    <i class="fas fa-user-alt pe-2"></i>
-                                    <small>34,656</small>
-                                </div>
-                                <div>
-                                    <p className="m-0 text-success fw-bold">$199.99</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+        <div className="col">
+            <div className="card h-100 shadow">
+                <div className="position-relative">
+                    <img src={courseImg} className="card-img-top" alt="..." />
+                    <img src={authorImg} alt="aimg" className="authorImg" />
+                    <span className="badge bg-danger category">{category}</span>
                 </div>
-                <div className="col">
-                    <div className="card h-100 shadow">
-                        <div className="position-relative">
-                            <img src="https://img-c.udemycdn.com/course/240x135/836842_38ab_5.jpg" className="card-img-top" alt="..." />
-                            <img src="https://img-c.udemycdn.com/user/200_H/7010472_fcc1_6.jpg" alt="aimg" className="authorImg" />
-                            <span class="badge bg-danger category">New</span>
-                        </div>
-                        <div className="card-body">
-                            <div>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="far fa-star text-warning"></i>
-                                <small className="text-secondary ps-2 review-text">243 Reviews</small>
-                            </div>
-                            <h5 className="fs-6 fw-bold">Neuroplasticity: How To Rewire Your Brain</h5>
-                            <p className="autor-text">By <span className="text-danger">Authore Name</span></p>
-                            <p className="card-text card-font">How to develop mental flexibility, change habits, stop procrastination and alter memories based on neuroscience research</p>
-                            <hr />
-                            <div className="d-flex justify-content-between">
-                                <div>
-                                    <i class="fas fa-user-alt pe-2"></i>
-                                    <small>34,656</small>
-                                </div>
-                                <div>
-                                    <p className="m-0 text-success fw-bold">$199.99</p>
-                                </div>
-                            </div>
-                        </div>
+                <div className="card-body">
+                    <div>
+                        <i className="fas fa-star text-warning"></i>
+                        <i className="fas fa-star text-warning"></i>
+                        <i className="fas fa-star text-warning"></i>
+                        <i className="fas fa-star text-warning"></i>
+                        <i className="far fa-star text-warning"></i>
+                        <small className="text-secondary ps-2 review-text">{reviews} Reviews</small>
                     </div>
-                </div>
-                <div className="col">
-                    <div className="card h-100 shadow">
-                        <div className="position-relative">
-                            <img src="https://img-c.udemycdn.com/course/240x135/836842_38ab_5.jpg" className="card-img-top" alt="..." />
-                            <img src="https://img-c.udemycdn.com/user/200_H/7010472_fcc1_6.jpg" alt="aimg" className="authorImg" />
-                            <span class="badge bg-danger category">New</span>
+                    <h5 className="fs-6 fw-bold">{title}</h5>
+                    <p className="autor-text">By <span className="text-danger">{author}</span></p>
+                    <p className="card-text card-font">{descriptions}</p>
+                    <hr />
+                    <div className="d-flex justify-content-between align-items-center">
+                        <div>
+                            <i className="fas fa-user-alt pe-2"></i>
+                            <small>{students}</small>
                         </div>
-                        <div className="card-body">
-                            <div>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="far fa-star text-warning"></i>
-                                <small className="text-secondary ps-2 review-text">243 Reviews</small>
-                            </div>
-                            <h5 className="fs-6 fw-bold">Neuroplasticity: How To Rewire Your Brain</h5>
-                            <p className="autor-text">By <span className="text-danger">Authore Name</span></p>
-                            <p className="card-text card-font">How to develop mental flexibility, change habits, stop procrastination and alter memories based on neuroscience research</p>
-                            <hr />
-                            <div className="d-flex justify-content-between">
-                                <div>
-                                    <i class="fas fa-user-alt pe-2"></i>
-                                    <small>34,656</small>
-                                </div>
-                                <div>
-                                    <p className="m-0 text-success fw-bold">$199.99</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="card h-100 shadow">
-                        <div className="position-relative">
-                            <img src="https://img-c.udemycdn.com/course/240x135/836842_38ab_5.jpg" className="card-img-top" alt="..." />
-                            <img src="https://img-c.udemycdn.com/user/200_H/7010472_fcc1_6.jpg" alt="aimg" className="authorImg" />
-                            <span class="badge bg-danger category">New</span>
-                        </div>
-                        <div className="card-body">
-                            <div>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="far fa-star text-warning"></i>
-                                <small className="text-secondary ps-2 review-text">243 Reviews</small>
-                            </div>
-                            <h5 className="fs-6 fw-bold">Neuroplasticity: How To Rewire Your Brain</h5>
-                            <p className="autor-text">By <span className="text-danger">Authore Name</span></p>
-                            <p className="card-text card-font">How to develop mental flexibility, change habits, stop procrastination and alter memories based on neuroscience research</p>
-                            <hr />
-                            <div className="d-flex justify-content-between">
-                                <div>
-                                    <i class="fas fa-user-alt pe-2"></i>
-                                    <small>34,656</small>
-                                </div>
-                                <div>
-                                    <p className="m-0 text-success fw-bold">$199.99</p>
-                                </div>
-                            </div>
+                        <button className="btn btn-danger shadow-none">Enroll</button>
+                        <div>
+                            <p className="m-0 text-success fw-bold">${price}</p>
                         </div>
                     </div>
                 </div>

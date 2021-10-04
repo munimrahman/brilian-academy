@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div className="col-8 border-start border-danger">
                     <div className="ms-3">
-                        <h2>Feel free to send us a message</h2>
+                        <h2>Feel Free to Send Us a Message</h2>
                         <p>We always want to hear you. We will response with in 24 hours!</p>
                         <div>
                             <div className="row mb-3">
