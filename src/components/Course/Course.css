@@ -1,0 +1,25 @@
+.position-relative{
+    position: relative;
+}
+.category{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.authorImg{
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+}
+.autor-text{
+    font-size: 12px;
+}
+.card-font{
+    font-size: 14px;
+}
+/* .review-text{
+    font-size: 14px;
+} */

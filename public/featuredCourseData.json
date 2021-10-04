@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Neuroplasticity: How To Rewire Your Brain",
+        "category": "Personal Development",
+        "author": "Gregory Caremans",
+        "reviews": 13163,
+        "students": 93505,
+        "price": 89.99,
+        "authorImg": "https://img-c.udemycdn.com/user/200_H/7010472_fcc1_6.jpg",
+        "courseImg": "https://img-c.udemycdn.com/course/240x135/836842_38ab_5.jpg",
+        "descriptions": "How to develop mental flexibility, change habits, stop procrastination and alter memories based on neuroscience research"
+    },
+    {
+        "id": 3,
+        "title": "Influence: Communication Skills for Management & Leadership",
+        "category": "Communication Skills",
+        "author": "Kain Ramsay",
+        "reviews": 3239,
+        "students": 10870,
+        "price": 59.99,
+        "authorImg": "https://img-c.udemycdn.com/user/200_H/3890126_2b28_16.jpg",
+        "courseImg": "https://img-c.udemycdn.com/course/240x135/1328594_ca59_2.jpg",
+        "descriptions": "Leadership Communication Skills and People Skills for Persuasive Management Conversations and Influential Team Building"
+    },
+    {
+        "id": 7,
+        "title": "Travel Journaling: How to Write Extraordinary Travel Diaries",
+        "category": "Lifestyle",
+        "author": "Dave Fox",
+        "reviews": 909,
+        "students": 4236,
+        "price": 39.99,
+        "authorImg": "https://img-c.udemycdn.com/user/200_H/2858322_a424.jpg",
+        "courseImg": "https://img-c.udemycdn.com/course/240x135/146636_3463_6.jpg",
+        "descriptions": "Supercharge your travel journals! - Writing a travel diary should enhance your vacations, not gobble up precious time!"
+    },
+    {
+        "id": 4,
+        "title": "Fully Accredited Professional Child Psychology Diploma",
+        "category": "Parenting & Relationships",
+        "author": "Dr Karen E Wells",
+        "reviews": 954,
+        "students": 6184,
+        "price": 94.99,
+        "authorImg": "https://img-c.udemycdn.com/user/200_H/23345822_d51b_4.jpg",
+        "courseImg": "https://img-c.udemycdn.com/course/240x135/1933710_f478.jpg",
+        "descriptions": "Learn or Specialise Your Therapy in Child Psychology with this Fully Accredited Diploma Course"
+    }
+]

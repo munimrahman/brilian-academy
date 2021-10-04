@@ -1,0 +1,9 @@
+.hero{
+    background-color: #fa4765;
+    background-image: linear-gradient(62deg, #ff4867d0 0%, #fd5f77 100%);
+
+    height: 300px;
+}
+.hero h1{
+    font-size: 70px;
+}
