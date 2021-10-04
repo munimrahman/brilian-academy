@@ -3,6 +3,7 @@ import React from 'react';
 const Instractor = (props) => {
     const { name, img, review, category, address } = props.instructor || {}
     return (
+        // this section is called from instructors page
         <div className="col">
             <div className="card h-100 shadow">
                 <img src={img} className="card-img-top" alt="..." />

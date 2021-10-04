@@ -2,9 +2,11 @@ import React from 'react';
 
 const BecomeInstructor = () => {
     return (
+        // this section is cadded from intructors page
         <div>
             <h1 className="text-center"><span className="fw-bold">Register</span> and Become a Instructor</h1>
             <div className="row w-75 my-5 p-5 shadow rounded mx-auto d-flex align-items-center">
+                {/* apply section */}
                 <div className="col-6 border-end border-danger">
                     <div className="w-75 mx-auto">
                         <h3 className="text-center mb-5"><span className="border-bottom border-3 border-danger">Apply Now</span></h3>
@@ -40,7 +42,7 @@ const BecomeInstructor = () => {
                                 <div className="form-check">
                                     <input className="form-check-input shadow-none" type="checkbox" id="gridCheck" />
                                     <label className="form-check-label" for="gridCheck">
-                                        Check me out
+                                        Agree with Our <span className="text-primary text-decoration-underline">Terms & Conditions</span>
                                     </label>
                                 </div>
                             </div>
@@ -50,6 +52,7 @@ const BecomeInstructor = () => {
                         </form>
                     </div>
                 </div>
+                {/* apply information */}
                 <div className="col-6 p-5">
                     <div className="w-75">
                         <h3><span className="fw-bold text-danger">Join Us!</span> We Are More Than An Academy!</h3>

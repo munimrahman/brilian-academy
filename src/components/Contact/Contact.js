@@ -5,11 +5,13 @@ import './Contact.css';
 const Contact = () => {
     return (
         <div>
+            {/* hero section of contact page */}
             <div className="hero d-flex flex-column justify-content-center align-items-center">
                 <h1 className="text-white"><span className="fw-bold">Contact</span> Us</h1>
                 <p className="text-white">HOME &gt; CONTACT US</p>
             </div>
             <div className="w-75 row mx-auto my-5 d-flex align-items-center">
+                {/* contact info section */}
                 <div className="col-4">
                     <div className="d-flex align-items-center">
                         <div className="bg-danger icn-bg d-flex align-items-center justify-content-center">
@@ -39,6 +41,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+                {/* contact form section */}
                 <div className="col-8 border-start border-danger">
                     <div className="ms-3">
                         <h2>Feel Free to Send Us a Message</h2>

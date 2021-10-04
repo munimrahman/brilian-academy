@@ -10,6 +10,7 @@ const Courses = () => {
     }, [])
     return (
         <div>
+            {/* hero section of courses page */}
             <div className="hero d-flex flex-column justify-content-center align-items-center">
                 <h1 className="text-white"><span className="fw-bold">Course</span> List</h1>
                 <p className="text-white">HOME &gt; COURSES</p>
@@ -17,11 +18,11 @@ const Courses = () => {
             <div className="m-5 pt-5">
                 <div className="container d-flex mx-5 justify-content-between">
                     <div className="mx-5">
-                        <p className="fs-6"><i class="fas fa-th text-secondary me-2"></i> Showing 1 - 8 of 300 Courses</p>
+                        <p className="fs-6"><i className="fas fa-th text-secondary me-2"></i> Showing 1 - 8 of 300 Courses</p>
                     </div>
                     <div className="mx-5 d-flex">
                         <div className="mx-2">
-                            <select class="form-select form-select-sm shadow-none" aria-label=".form-select-sm example">
+                            <select className="form-select form-select-sm shadow-none" aria-label=".form-select-sm example">
                                 <option selected>Select Category</option>
                                 <option value="1">Personal Development
                                 </option>
@@ -32,7 +33,7 @@ const Courses = () => {
                             </select>
                         </div>
                         <div className="mx-2">
-                            <select class="form-select form-select-sm shadow-none" aria-label=".form-select-sm example">
+                            <select className="form-select form-select-sm shadow-none" aria-label=".form-select-sm example">
                                 <option selected>Sort By</option>
                                 <option value="1">Name</option>
                                 <option value="2">Date</option>

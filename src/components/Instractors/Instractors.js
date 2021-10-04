@@ -19,6 +19,7 @@ const Instractors = () => {
                 <h1>Our <span className="fw-bold">Experienced</span> Instructors</h1>
                 <p className="w-50 mx-auto">Do you want to move on next step? Choose your most popular leaning mentors, it will help you to achieve your professional goals.</p>
             </div>
+            {/* all instructors are displayed here */}
             <div className="container row row-cols-1 row-cols-md-3 g-4 mx-auto mt-3 mb-5">
                 {
                     instructors.map(instructor => <Instractor

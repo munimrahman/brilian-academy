@@ -1,6 +1,6 @@
 import React from 'react';
 import Newsletter from '../Newsletter/Newsletter';
-import expert from './experts.png'
+import expert from '../../images/experts.png'
 import './About.css'
 import missionImg from '../../images/mission-img.png'
 import visonImg from '../../images/vison-img.png'
@@ -9,10 +9,12 @@ import Testimonials from '../Testimonials/Testimonials';
 const About = () => {
     return (
         <div>
+            {/* hero section of about page */}
             <div className="hero d-flex flex-column justify-content-center align-items-center">
                 <h1 className="text-white"><span className="fw-bold">About</span> Us</h1>
                 <p className="text-white">HOME &gt; ABOUT US</p>
             </div>
+            {/* first info section of about */}
             <div className="row container mx-auto d-flex align-items-center w-75">
                 <div className="col-6">
                     <h1 className="my-5">Top Quality Education <br /> with Real Experts</h1>
@@ -23,6 +25,7 @@ const About = () => {
                     <img src={expert} alt="experts" className="img-fluid" />
                 </div>
             </div>
+            {/* experiance section */}
             <div className="bg-color text-center pt-5">
                 <h1><span className="fw-bold text-danger">22 Years</span> Experience in <span className="fw-bold">Education</span> <br /> and <span className="fw-bold">Teaching</span></h1>
                 <p className="w-50 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quia aperiam reprehenderit? Minus temporibus, eligendi perferendis libero id harum. Architecto.</p>
@@ -57,6 +60,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            {/* our mission section */}
             <div className="row container mx-auto d-flex align-items-center w-75 mt-5">
                 <div className="col-6 d-flex justify-content-center">
                     <img src={missionImg} alt="experts" className="img-fluid" />
@@ -69,6 +73,7 @@ const About = () => {
                         Ipsam doloremque enim quo repellat quod ut perspiciatis odio odit nobis excepturi soluta, voluptatum quae, nam, velit dolore tenetur! Quos dolore sint molestias ipsa fugiat excepturi.</p>
                 </div>
             </div>
+            {/* our vison section */}
             <div className="row container mx-auto d-flex align-items-center w-75 mt-5">
                 <div className="col-6">
                     <h6 className="subheading-text-color">OUR VISION</h6>

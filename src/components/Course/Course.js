@@ -2,9 +2,10 @@ import React from 'react';
 import './Course.css'
 
 const Course = (props) => {
+    // props info comes from home page and courses page
     const { author, title, descriptions, reviews, students, price, authorImg, courseImg, category } = props.course;
     return (
-
+        // this component is called from home page and coursees page
         <div className="col">
             <div className="card h-100 shadow">
                 <div className="position-relative">

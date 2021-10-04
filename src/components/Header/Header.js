@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from './logo.png';
+import logo from '../../images/logo.png';
 
 const Header = () => {
     const activeStyle = {
@@ -11,6 +11,7 @@ const Header = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid mx-5">
+                    {/* site logo */}
                     <Link to="/" className="navbar-brand fs-3">
                         <img src={logo} alt="logo" className="w-75" />
                     </Link>
@@ -18,6 +19,7 @@ const Header = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        {/* navbar items */}
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <NavLink to="/home" activeStyle={activeStyle} className="nav-link">Home</NavLink>
@@ -38,6 +40,7 @@ const Header = () => {
                                 <NavLink to="/sdfgt" activeStyle={activeStyle} className="nav-link">Test 404 Page</NavLink>
                             </li>
                         </ul>
+                        {/* login/singup buttons */}
                         <div className="ms-3">
                             <button className="btn btn-danger mx-2 shadow-none">Log In</button>
                             <button className="btn btn-outline-danger mx-2 shadow-none">Sing Up</button>
